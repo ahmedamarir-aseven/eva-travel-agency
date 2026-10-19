@@ -1,0 +1,57 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build outputs
+dist/
+dist-ssr/
+build/
+.output/
+.vinxi/
+.tanstack/
+.nitro/
+
+# Cache & intermediate files
+.cache/
+*.tsbuildinfo
+
+# Environment & secrets
+.env
+.env.*
+*.env
+!.env.example
+.dev.vars
+*.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Database & keys
+*.sqlite
+*.sqlite3
+*.db
+*.pem
+*.key
+
+# Tooling artifacts
+.wrangler/
+.lovable/
+.cursor/
+
+# Editor & OS files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
